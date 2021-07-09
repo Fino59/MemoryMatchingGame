@@ -1,4 +1,6 @@
 body {
-    --background-app: var(--color-pomb-and-power);
-    background-color: var(--background-app);     
-  }
+  background-color: var(--color-pomb-and-power);
+  max-width: 320px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}  
