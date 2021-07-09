@@ -1,7 +1,7 @@
 .card-game {
     box-sizing: border-box;
     display: flex;
-    border: var(--border-size) solid var(--color-eggshell);
+    border: 3px solid var(--color-eggshell);
     justify-content: center;
     align-items: center;
     background-color: var(--color-alura);
