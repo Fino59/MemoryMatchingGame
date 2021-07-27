@@ -1,10 +1,10 @@
 import "./style.css";
 import "../../styles/settings/colors.css";
 
-function CardGame() {
-    return /*html*/`
+function CardGame(icon = "alura-pixel", alt = "Logo da Alura") {
+    return /*html*/ `
         <figure class="card-game">
-            <img src="images/alura-pixel.svg" alt="Logo da Alura" class="icon">
+            <img src="images/${icon}.png" alt="${alt}" class="icon">
         </figure>        
         `;           
 }
