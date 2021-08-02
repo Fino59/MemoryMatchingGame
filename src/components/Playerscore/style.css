@@ -1,0 +1,7 @@
+.player-score {
+    display: flex;
+    box-sizing: border-box;
+    border: 0.2rem solid var(--color-fiery-rose);
+}
+
+
