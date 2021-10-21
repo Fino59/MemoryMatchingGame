@@ -1,14 +1,12 @@
-import PlayerPoints from '../PlayerPoints';
 import './style.css';
 
-function PlayerScore() {
-    const $htmlPlayerPoints = PlayerPoints();
-    const $htmlPointsContent = $htmlPlayerPoints.repeat(3)
-
+function PlayerScore(points = 0) {    
     return /*html*/ `
-        <div class="player-score">
-            ${$htmlPointsContent}
-        </div>
+        <ol data-points="${points}" >
+            <li>I</li>
+            <li>II</li>
+            <li>III</li>
+        </ol>
     `;
 }
 
