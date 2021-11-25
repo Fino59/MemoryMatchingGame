@@ -24,7 +24,7 @@ function BoardGame(amountCards) {
             setTimeout(() => {                
                 flipAndHideCards($cardsActive);
                 swapPlayer();
-            }, 800)
+            }, 600)
         }
     }
     const $htmlCardsList = cards.map((card) => CardFrontBack(card.icon, card.altIcon));

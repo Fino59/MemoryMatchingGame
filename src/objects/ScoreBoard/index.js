@@ -9,9 +9,9 @@ function ScoreBoard() {
         <header class="score-board">
             ${(ArrowDown(2))}
             ${PlayerName('Player1')}            
-            ${PlayerScore(1)}
+            ${PlayerScore(2)}
             ${Vs("vs")}
-            ${PlayerScore()}
+            ${PlayerScore(3)}
             ${PlayerName('Player2')}
         </header>
     `;
